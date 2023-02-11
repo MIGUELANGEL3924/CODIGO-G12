@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-compatible" content="IE=cronome">
     <meta name="viewport" content="width=device-width, initial-scale">
+    <link rel="stylesheet"  href="./CSS/styles.css" />
     <title>formularios e inputs</title>
 </head>
 
 <body>
     <section>
-        <h1>FORMULARIOS</h1>
+        <h1 >FORMULARIOS</h1>
         <form>
             <p>
-                <input type="text" name="name" placeholder="Ingresa tu nombre" autocomplete="of"  required />
+                <input type="text" class="form-input" name="name" placeholder="Ingresa tu nombre" autocomplete="of"  required />
             </p>
             <p>
-                <input type="email" name="email" placeholder="Ingresa tu correo" value="linder@gmail.com" />
+                <input type="email" class="form-input" name="email" placeholder="Ingresa tu correo" value="linder@gmail.com" />
             </p>
             <p>
-                <input type="password" name="password" placeholder="Escribe una contraseña" disabled />
+                <input type="password" class="form-input" name="password" placeholder="Escribe una contraseña" disabled />
             </p>
 <p>
     <input type="file" accept="image" name="image"/>
@@ -60,7 +61,7 @@
 
 </p>
 <p>
-    <button type="submit">Enviar datos</button>
+    <button  name="boton-enviar" type="submit">Enviar datos</button>
 </p>
 
 </form>
